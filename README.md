@@ -10,11 +10,14 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Xcode 12+ is required.
 
 ## Installation
 
 ZSLogHelper is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
+
+add souce:https://github.com/haozs/ZSLogSpec.git
 
 ```ruby
 pod 'ZSLogHelper'
@@ -22,7 +25,7 @@ pod 'ZSLogHelper'
 
 ## Author
 
-elite_members@163.com, elite_members@163.com
+elite_members@163.com
 
 ## License
 
