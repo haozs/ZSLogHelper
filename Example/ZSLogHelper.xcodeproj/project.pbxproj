@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02B69FFF557ABEB19EF3EDAD /* ZSLogHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZSLogHelper.podspec; path = ../ZSLogHelper.podspec; sourceTree = "<group>"; };
+		02B69FFF557ABEB19EF3EDAD /* ZSLogHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSLogHelper.podspec; path = ../ZSLogHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0E347145F168F4B9D0135207 /* Pods-ZSLogHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSLogHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZSLogHelper_Tests/Pods-ZSLogHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		13654B09DE230CC6E7F660BF /* Pods_ZSLogHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSLogHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26BA09BFFDE56878A2E3EB47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		26BA09BFFDE56878A2E3EB47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		42A4C25BC141C57B6DDC539E /* Pods-ZSLogHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSLogHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZSLogHelper_Tests/Pods-ZSLogHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZSLogHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSLogHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4E98234C036944BAD209E19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E4E98234C036944BAD209E19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF2B1A14E09089737A318695 /* Pods_ZSLogHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSLogHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2644DE906F47984F3A1E14D /* Pods-ZSLogHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSLogHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZSLogHelper_Example/Pods-ZSLogHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FAAB79E6C4A588312B4E52DA /* Pods-ZSLogHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSLogHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-ZSLogHelper_Example/Pods-ZSLogHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				0E347145F168F4B9D0135207 /* Pods-ZSLogHelper_Tests.debug.xcconfig */,
 				42A4C25BC141C57B6DDC539E /* Pods-ZSLogHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "elite_members@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = AG4W42X895;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = F2644DE906F47984F3A1E14D /* Pods-ZSLogHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AG4W42X895;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSLogHelper/ZSLogHelper-Prefix.pch";
 				INFOPLIST_FILE = "ZSLogHelper/ZSLogHelper-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = FAAB79E6C4A588312B4E52DA /* Pods-ZSLogHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AG4W42X895;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSLogHelper/ZSLogHelper-Prefix.pch";
 				INFOPLIST_FILE = "ZSLogHelper/ZSLogHelper-Info.plist";
