@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/ZSLogHelper.svg?style=flat)](https://cocoapods.org/pods/ZSLogHelper)
 [![Platform](https://img.shields.io/cocoapods/p/ZSLogHelper.svg?style=flat)](https://cocoapods.org/pods/ZSLogHelper)
 
+## Description
+一个便于调试的工具，在开发过程中，事件的点击、即将出现的控制器，都可在控制器自动打印出，pod到项目中后，无需引入，自动生效
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
